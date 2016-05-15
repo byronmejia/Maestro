@@ -14,17 +14,18 @@ For Linux, download pyserial-2.7.tar.gz from http://sourceforge.net/projects/pys
     wget http://sourceforge.net/projects/pyserial/files/pyserial/2.7/pyserial-2.7.tar.gz
 
  and then install
-
-    tar –zxf pyserial-2.7.tar.gz
-    cd pyserial-2.7
-    sudo python setup.py install
-
+```shell
+tar –zxf pyserial-2.7.tar.gz
+cd pyserial-2.7
+sudo python setup.py install
+```
 
 Example usage of maestro.py:
 
-    import maestro.py
-    servo = maestro.Controller()
-    servo.setAccel(0,4)      #set servo 0 acceleration to 4
-    servo.setTarget(0,6000)  #set servo to move to center position
-    servo.close
-
+```python
+import maestro.py
+servo = maestro.Controller()
+servo.setAccel(0,4)      #set servo 0 acceleration to 4
+servo.setTarget(0,6000)  #set servo to move to center position
+servo.close
+```
