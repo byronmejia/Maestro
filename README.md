@@ -1,7 +1,7 @@
 ﻿maestro.py
 ==========
 
-This Python class supports Pololu's Maestro servo controller over USB serial. Great for use with the Raspberry Pi.
+This Python class supports Pololu's Maestro servo controller over USB serial.
 
 The class includes methods to control servos (position, speed, acceleration), read servo position, and start/stop Maestro scripts.  See Pololu's on-line documentation to learn about the full capabilities of this nifty micro-controller.
 
